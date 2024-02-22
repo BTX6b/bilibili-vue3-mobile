@@ -5,17 +5,17 @@
 <template>
   <header class="app-header">
     <!-- logo -->
-    <a class="logo" href="#">
-      <i class="iconfont Navbar_logo"></i>
+    <a class="logo">
+      <router-link to="/"> <i class="iconfont Navbar_logo"></i></router-link>
     </a>
     <!-- 搜索 -->
-    <a class="search" href="#/search">
-      <i class="iconfont ic_search_tab"></i>
+    <a class="search">
+      <router-link to="/search"> <i class="iconfont ic_search_tab"></i></router-link>
     </a>
 
     <!-- 头像 -->
-    <a class="face" href="#/login">
-      <img src="@/assets/images/login.png" alt="" />
+    <a class="face">
+      <router-link to="/login"><img src="@/assets/images/login.png" alt="登录bilibili" /></router-link>
     </a>
     <!-- 下载按钮 -->
     <div class="down-app">

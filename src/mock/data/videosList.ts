@@ -4,7 +4,7 @@ export default [
     link: '',
     imgSrc: 'https://i2.hdslb.com/bfs/archive/b1a07a8baefa0694760cd6d99f212bee45d1333d.jpg',
     desc: '敢 杀 我 的 马？！',
-    playCount: '24.9万',
+    playCount: '99.9万',
     commentCount: '1345',
     videoSrc: 'http://175.27.247.87:8081/d3297919a2c3c1e7c031fdd34e99f8a8.mp4'
   },

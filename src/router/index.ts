@@ -10,10 +10,21 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/video/:id',
     name: 'video',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import('../views/Video/index.vue')
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/Login/index.vue')
+  },
+  {
+    path: '/search',
+    name: 'search',
+    component: () => import('../views/Search/index.vue')
+  }, {
+    path: '/register',
+    name: 'register',
+    component: () => import('../views/Register/index.vue')
   }
 ]
 

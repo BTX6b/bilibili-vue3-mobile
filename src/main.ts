@@ -5,7 +5,7 @@ import './assets/styles/base.less'
 import './assets/styles/iconfont.less'
 // 全局引入组件样式
 import 'vant/lib/index.css'
-import { Tab, Tabs, Swipe, SwipeItem } from 'vant'
+import { Tab, Tabs, Swipe, SwipeItem, Form, Field, CellGroup, Button, Col, Row, Search } from 'vant'
 
 // 导入mock
 import '@/mock/index.ts'
@@ -18,3 +18,10 @@ app.use(Tab)
 app.use(Tabs)
 app.use(Swipe)
 app.use(SwipeItem)
+app.use(Form)
+app.use(Field)
+app.use(CellGroup)
+app.use(Button)
+app.use(Col)
+app.use(Row)
+app.use(Search)

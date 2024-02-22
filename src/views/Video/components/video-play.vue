@@ -11,7 +11,7 @@
 
 <script lang="ts" setup>
 import { defineProps, PropType } from 'vue'
- interface IVideoInfo {
+   interface IVideoInfo {
   author?: string
   authorIconSrc?: string
   commentCount?: number
